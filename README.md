@@ -34,20 +34,6 @@ Clone the repository:
 
 git clone https://github.com/your-username/Scientific-Calculator.git
 
-
-Open the folder in VS Code or any code editor.
-
-Open index.html in your web browser.
-
-Start calculating! 🧠
-
-📸 Preview
-
-(Add a screenshot of your calculator UI here)
-Example:
-
-![Calculator Preview](./screenshot.png)
-
 🧠 Future Improvements
 
 Add keyboard input support
