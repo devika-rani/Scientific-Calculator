@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+    <input type="text" id="inputDisplay" placeholder="0">
+    <input type="text" id="resultDisplay" disabled placeholder="Result">
+    <div class="buttons">
+        <button class="btn" onclick="clearDisplay()">C</button>
+        <button class="btn" onclick="backspace()">⌫</button>
+        <button class="btn" onclick="appendSymbol('√')">√</button>
+        <button class="btn" onclick="appendSymbol('x²')">x²</button>
+        <button class="btn" onclick="appendSymbol('1/x')">1/x</button>
+        <button class="btn" onclick="appendValue('%')">mod</button>
+
+        <button class="btn" onclick="appendSymbol('xʸ')">xʸ</button>
+        <button class="btn" onclick="appendValue('(')">(</button>
+        <button class="btn" onclick="appendValue(')')">)</button>
+        <button class="btn" onclick="appendSymbol('n!')">n!</button>
+        <button class="btn" onclick="appendValue('/')">÷</button>
+        <button class="btn" onclick="appendValue('*')">×</button>
+
+        <button class="btn" onclick="appendValue('7')">7</button>
+        <button class="btn" onclick="appendValue('8')">8</button>
+        <button class="btn" onclick="appendValue('9')">9</button>
+        <button class="btn" onclick="appendValue('-')">−</button>
+        <button class="btn" onclick="appendSymbol('exp')">exp</button>
+        <button class="btn" onclick="appendSymbol('10^x')">10ˣ</button>
+
+        <button class="btn" onclick="appendValue('4')">4</button>
+        <button class="btn" onclick="appendValue('5')">5</button>
+        <button class="btn" onclick="appendValue('6')">6</button>
+        <button class="btn" onclick="appendValue('+')">+</button>
+        <button class="btn" onclick="appendSymbol('log')">log</button>
+        <button class="btn" onclick="appendSymbol('ln')">ln</button>
+
+        <button class="btn" onclick="appendValue('1')">1</button>
+        <button class="btn" onclick="appendValue('2')">2</button>
+        <button class="btn" onclick="appendValue('3')">3</button>
+        <button class="btn equal" onclick="calculateResult()">=</button>
+        <button class="btn" onclick="appendSymbol('sin')">sin</button>
+        <button class="btn" onclick="appendSymbol('cos')">cos</button>
+
+        <button class="btn zero" onclick="appendValue('0')">0</button>
+        <button class="btn" onclick="appendValue('.')">.</button>
+        <button class="btn" onclick="appendSymbol('tan')">tan</button>
+        <button class="btn" onclick="appendSymbol('π')">π</button>
+        <button class="btn" onclick="appendSymbol('e')">e</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
